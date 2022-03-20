@@ -1,0 +1,33 @@
+/* pexels-vecislavas-popa-1571460 1 */
+.landingPageContainer {
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.4) center/cover
+		url('../static/images/backdrop.jpg') no-repeat;
+	background-blend-mode: multiply;
+	border-bottom-right-radius: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+.title,
+.subTitle {
+	color: #ffffff;
+	font-family: 'Exo 2';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 100px;
+	line-height: 110px;
+	text-align: center;
+	margin: 16px;
+}
+
+.subTitle {
+	font-size: 30px;
+	line-height: 110%;
+}
+
+center {
+	padding: 4vw;
+	margin: 4vw;
+}
